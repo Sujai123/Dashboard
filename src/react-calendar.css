@@ -1,0 +1,21 @@
+.react-calendar__navigation, .react-calendar__month-view__weekdays {
+  display: none !important;
+}
+
+.react-calendar__month-view__days__day--neighboringMonth {
+  opacity: 0 !important;
+  aspect-ratio: 1;
+}
+
+.react-calendar__month-view__days {
+  gap: .5rem;
+}
+
+.react-calendar__month-view__days__day {
+  background-color: #2e303e;
+  border: none;
+  display: inline-block;
+  aspect-ratio: 1;
+  flex: 0 0 11.8% !important;
+  border-radius: 50%;
+}

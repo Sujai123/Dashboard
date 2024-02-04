@@ -1,0 +1,71 @@
+@font-face {
+  font-family: NunitoMedium;
+  src: url(./assets/Nunito/static/Nunito-Medium.ttf);
+}
+
+@font-face {
+  font-family: NunitoBold;
+  src: url(./assets/Nunito/static/Nunito-Bold.ttf);
+}
+
+@font-face {
+  font-family: NunitoLight;
+  src: url(./assets/Nunito/static/Nunito-Light.ttf);
+}
+
+
+
+:root {
+  font-family: NunitoMedium, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  /* font-weight: 400; */
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.4;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom left, #1e1d2a, #1e1d2a);
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+img {
+  max-width: 100%;
+
+}
+
+@media screen and (max-width > 1082px) {
+  
+}
+
+
+@media (prefers-color-scheme: light) {
+  /* :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  } */
+}
